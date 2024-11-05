@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Container for flexible Layout*/
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +12,7 @@
     height: auto;
 }
 
+/* Navigation bar at the top of the page*/
 .navbar {
     background-color: rgba(10, 17, 23, 1);
     width: auto;
@@ -21,6 +23,7 @@
     align-content: flex-start;
 }
 
+/* Style fot the logo in the navigation bar*/
 .logo {
     color: white;
     font-size: 35px;
@@ -28,6 +31,7 @@
     padding-left: 144px;
     padding-top: 10px;
 }
+
 
 .logo2 {
     color: pink;
@@ -38,7 +42,7 @@
 }
 
 
-
+/* Sidebar sections with different widths and heights*/
 .sidebar1 {
     background-color: rgba(10, 17, 23, 1);
     width: 500px;
@@ -68,7 +72,7 @@
     align-content: space-between;
 }
 
-
+/* Formatting for the navigation unordered list*/
 ul {
     display: flex;
     justify-content: center;
@@ -89,6 +93,7 @@ ul li a {
     transition: 0.4s ease-in-out;
 }
 
+/* Style for general buttons*/
 .button {
     width: 92px;
     height: 44px;
@@ -112,7 +117,7 @@ button a {
 
 
 
-
+/* styling for the start section*/
 .start {
     background-color: rgba(10, 17, 23, 1);
     color: white;
@@ -129,6 +134,7 @@ button a {
 
 }
 
+/*get started button styling*/
 .getStarted-button {
     width: 145px;
     height: 48px;
@@ -147,6 +153,7 @@ button a {
 
 }
 
+/* Main text styling*/
 .mainText {
     width: 425px;
     height: 100px;
@@ -156,6 +163,7 @@ button a {
     align-items: center;
 }
 
+/* Text styling for centered text*/
 .centerText {
     color: white;
     width: 400px;
@@ -167,6 +175,7 @@ button a {
 
 }
 
+/* Down arrow for navigation*/
 .arrow-down {
     position: relative;
     left: 49%;
@@ -177,6 +186,8 @@ button a {
     row-gap: 100px;
 }
 
+
+/* Container for the middle section*/
 .middenContainer {
     background-color: rgba(10, 17, 23, 1);
     width: 100%;
@@ -190,7 +201,7 @@ button a {
 }
 
 
-
+/* Title styling for project section*/
 .readyForEveryProject {
     color: #fff;
     font-size: 3.4em;
@@ -199,26 +210,31 @@ button a {
     font-weight: 700;
 
 }
-.star-group{
+
+/* star images*/
+.star-group {
     position: relative;
     right: 30%;
     top: 10%;
 }
-.tag-button-container{
+
+/* tag-button containers*/
+.tag-button-container {
     max-width: 590px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; 
-    padding: 15px; 
-    justify-content: center; 
-    border-radius: 12px; 
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 12px;
 }
 
-.tag-button{
+/* tag-button styling*/
+.tag-button {
     background-color: #1F1F1F;
-    color: #FFFFFF; 
-    padding: 8px 16px; 
-    border-radius: 20px; 
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
@@ -241,12 +257,14 @@ button a {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+
+/* image container*/
 .imageContainer {
     height: auto;
     width: 100%;
     display: flex;
     justify-content: end;
-    
+
 }
 
 .image {
@@ -259,24 +277,25 @@ button a {
     margin-right: 280px;
 }
 
-.tag-button-up-project{
+.tag-button-up-project {
     background-color: #FFB4D3;
     border-radius: 25px;
     height: 25px;
     width: 260px;
     align-items: center;
     color: #2A3744;
-     margin-top: -34px;
-     border-color: 1px #000;
+    margin-top: -34px;
+    border-color: 1px #000;
 
 
 }
 
-.tag-button-up{
+.tag-button-up {
     border-color: 3px #000;
     font-family: lato;
 }
 
+/* stylong for text with different color variants*/
 .pink-text {
     color: #FFB4D3;
     font-family: Arial, Helvetica, sans-serif;
@@ -313,6 +332,7 @@ button a {
 }
 
 
+/* Content container for centered content */
 .inhoud-container {
     background-color: rgba(10, 17, 23, 1);
     width: 100%;
@@ -345,7 +365,7 @@ h2 {
 }
 
 
-
+/*styling the text  for each word*/
 .organisation {
     color: #37424D;
     font-family: Lato;
@@ -395,6 +415,8 @@ h2 {
     width: 100%;
 }
 
+
+/* hero container*/
 .heroes-container {
     height: auto;
     width: 100%;
@@ -419,6 +441,7 @@ h2 {
 
 }
 
+/* Specifications for developer boxes */
 .john-box {
     width: 250px;
     height: 225px;
@@ -455,6 +478,7 @@ h2 {
     flex-direction: column;
 }
 
+/* Styling for developer images */
 .developers-image {
     width: 90px;
     height: 90px;
@@ -463,6 +487,7 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Styling for developer names */
 .developers-name {
     margin: 0;
     font-size: 18px;
@@ -481,7 +506,7 @@ h2 {
 }
 
 
-
+/* work with container */
 .work-with-container {
     width: 100%;
     height: auto;
@@ -489,21 +514,22 @@ h2 {
     justify-content: center;
 }
 
-.workwith-star2{
+/* styling star images next to the work with text */
+.workwith-star2 {
     position: relative;
-    top: -37px; 
-    left: -427px; 
-    width: 30px; 
-    opacity: 0.8; 
+    top: -37px;
+    left: -427px;
+    width: 30px;
+    opacity: 0.8;
     width: 60px;
     height: 60px;
 }
 
-.workwith-star{
+.workwith-star {
     position: relative;
-    top: -30px; 
-    right: -50px; 
-    width: 30px; 
+    top: -30px;
+    right: -50px;
+    width: 30px;
     opacity: 0.8;
     width: 40px;
     height: 40px;
@@ -514,18 +540,36 @@ h2 {
 }
 
 
-.foto-container {
+/* foto container for the personeel */
+.works-with-foto-container {
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: row;
     padding: 20px;
     align-items: center;
     justify-content: center;
+    
+}
+
+.works-with-boxes{
+    height: 120px;
+    width: 120px;
+    background-color: #14202C;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #2d3135;
 
 }
 
+
+.icon-images{
+  width: 120px;
+  height: 120px;
+}
 .klein-foto {
-    padding: 20px;
+    padding: 14px;
 }
 
 .personeel-container {
@@ -551,7 +595,7 @@ h2 {
     padding: 10px;
 }
 
-
+/* Styling for contact-buttons */
 .contact-button {
     font-size: 20px;
     border: none;
@@ -565,6 +609,8 @@ h2 {
 
 }
 
+
+/* container  for the examples*/
 .examples-container {
 
     margin-left: 300px;
@@ -591,6 +637,8 @@ h2 {
     justify-content: center;
 }
 
+
+/* sub-box container */
 .subscriptionBox-container {
     width: 100%;
     height: auto;
@@ -613,6 +661,8 @@ h2 {
     border: 2px solid #3D4C5B;
 }
 
+
+/* Styling for sub-box text */
 .sub-box h2 {
     color: #ffffff;
     font-size: 45px;
@@ -627,6 +677,7 @@ h2 {
 
 }
 
+/* Styling for  the sub-box form*/
 .sub-box form {
     display: flex;
     align-items: center;
@@ -634,6 +685,8 @@ h2 {
     border: #0A1117;
 }
 
+
+/* Email input styling */
 .sub-box input[type="email"] {
     padding: 12px;
     border: 1px solid #374151;
@@ -645,11 +698,13 @@ h2 {
 
 }
 
+/* Email input  placeholder color */
 .sub-box input[ type="email"]::placeholder {
     color: #3D4C5B;
 
 }
 
+/* button stylinf in the subscription box*/
 .sub-box button {
     padding: 10px 20px;
     background-color: #CEAAFF;
@@ -661,10 +716,12 @@ h2 {
     transition: background-color 0.3s;
 }
 
+/* button hover effect */
 .sub-box button:hover {
     background-color: #b68aff;
 }
 
+/* press container for the layout adjustments */
 .press-container {
     width: 100%;
     height: auto;
@@ -674,12 +731,16 @@ h2 {
     padding: 10px 0;
 }
 
+
+/* styling for press section */
 .press {
     margin-left: -578px;
     font-family: lato;
     font-weight: bold;
 }
 
+
+/* Button for "see more" section*/
 .see-button {
     color: #8395A7;
     text-decoration: none;
@@ -692,11 +753,17 @@ h2 {
     font-family: Montserrat;
     font-weight: bold;
 }
-.star-press{
-    position: relative; 
+
+
+/* star decoration and postioning for press section */
+.star-press {
+    position: relative;
     left: 434px;
 
 }
+
+
+/* Container for arranging press photo */
 .press-foto-container {
     width: 100%;
     height: 400px;
@@ -705,6 +772,8 @@ h2 {
     flex-direction: row;
 }
 
+
+/*different coloured boxes  */
 .blue-box {
     height: 348px;
     width: 310px;
@@ -739,11 +808,15 @@ h2 {
 
 }
 
+
+/* logo box in each press box */
 .logo-box {
     margin-top: 15px;
     margin-left: 20px;
 }
 
+
+/* Title text styling in press boxes */
 .text-box {
     font-size: 20px;
     font-weight: bold;
@@ -765,6 +838,7 @@ h2 {
 
 }
 
+/* "Read more" button styling in press section */
 .read-button {
     text-decoration: none;
     font-size: 20px;
@@ -790,6 +864,7 @@ h2 {
     font-weight: bold;
 }
 
+/* Podcast container layout adjustments */
 .podcast-container {
     width: 100%;
     height: auto;
@@ -799,17 +874,22 @@ h2 {
     padding: 10px 0;
 }
 
-.star-group3{
-    position: relative; 
+
+/* Star decoration positioning for podcast section */
+.star-group3 {
+    position: relative;
     left: 120px;
 }
 
+/* Styling for podcast section title */
 .podcast {
     margin-left: -578px;
     font-family: lato;
     font-weight: bold;
 }
 
+
+/* Button for "see all" section in podcasts */
 .see-all2 {
     color: #8395A7;
     text-decoration: none;
@@ -823,6 +903,8 @@ h2 {
     font-weight: bold;
 }
 
+
+/* Container for arranging podcast boxes */
 .podcast-boxes-container {
     width: 100%;
     height: 400px;
@@ -831,6 +913,8 @@ h2 {
     flex-direction: row;
 }
 
+
+/* styling podcast boxes */
 .podcast-box1 {
     height: 297px;
     width: 310px;
@@ -858,6 +942,8 @@ h2 {
     border-radius: 20px;
     margin-right: 181px;
 }
+
+
 
 .podcast-logos {
     margin-top: 25px;
@@ -910,7 +996,7 @@ h2 {
 
 
 
-.goose-stars{
+.goose-stars {
     margin-left: 707px;
 }
 
@@ -1047,7 +1133,7 @@ h2 {
     flex-direction: column;
     background-color: #111827;
     margin: 45px;
-    height:639px;
+    height: 639px;
     width: 600px;
     background-color: #131F2A;
     padding: 30px 40px;
@@ -1070,11 +1156,12 @@ h2 {
     margin-bottom: 15px;
 }
 
-.message-box{
+.message-box {
     width: 90px;
     height: 217px;
-    
+
 }
+
 .input-box input,
 .input-box textarea .input-box select {
     width: 468px;
@@ -1091,7 +1178,7 @@ h2 {
 .input-box textarea {
     resize: vertical;
     height: 100px;
-    
+
 }
 
 .input-box select {
@@ -1114,16 +1201,18 @@ h2 {
 .input-group select:focus {
     background-color: #121E28;
     box-shadow: 0 0 5px rgba(42, 55, 68, 1);
-    border: 1px solid #d3a4f1 ;
+    border: 1px solid #d3a4f1;
 }
 
-.submit{
+.submit {
     width: 100px;
     height: 44px;
     padding: 10px;
     border-radius: 8px;
-    background-color: #d3a4f1; /* Light purple background */
-    color: #1b1b1b; /* Dark text color */
+    background-color: #d3a4f1;
+    /* Light purple background */
+    color: #1b1b1b;
+    /* Dark text color */
     border: none;
     font-size: 16px;
     font-weight: bold;
